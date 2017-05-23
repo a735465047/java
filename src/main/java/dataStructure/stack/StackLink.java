@@ -14,6 +14,7 @@ public class StackLink {
 
     public boolean push(int e) {
         top = new Node(e, top);
+        size++;
         return true;
 
     }
@@ -44,5 +45,13 @@ public class StackLink {
     public boolean isEmpty() {
         //        return size == 0 ? true : false;
         return size == 0;
+    }
+
+    public static void main(String[] args) {
+        StackLink stackLink=new StackLink();
+        for (int i=0;i<10;i++){
+            stackLink.push(i);
+        }
+        System.out.print(stackLink.size);
     }
 }
