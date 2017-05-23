@@ -10,7 +10,7 @@ public class LinkedList {
     //新建一个链表
     public static Node createLinkedList(int num) {
         Node head = new Node(0);
-        Node tmp = head;//这个是一个关键,否则创建的就是一个节点，而不是链表。
+        Node tmp = head;//这个是一个关键,否则创建的就是一个节点，而不是链表,这里相当于指针tmp指向head。
         for (int i = 1; i < num; i++) {
             tmp.next = new Node(i);
             tmp = tmp.next;

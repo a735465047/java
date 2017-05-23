@@ -1,4 +1,4 @@
-package basic.thread.designMode;
+package basic.designMode;
 
 /**
  * author: qiaohong.wang.
