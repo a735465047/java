@@ -26,11 +26,11 @@
         <dependencies>
             <!--qunar begin-->
 
-            <dependency>
+<!--             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>1.1.36</version>
-            </dependency>
+            </dependency> -->
 
             <!-- third part begin -->
             <!--生成二维码zxing-->
